@@ -1,0 +1,245 @@
+@font-face {
+    font-family:PTSans-Regular;
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family:PTSans-Bold;
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+@font-face {
+    font-family:Helvetica-Bold;
+    src: url(../fonts/Helvetica-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:PTSans-Regular;
+    font-weight: 400;
+    font-size: 16px;
+}
+.yellow-bg{  
+    background-color: #fcdb00;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+}
+
+.menu-area {
+padding: 60px 0;
+}
+.logo {
+    float: left;
+    width: 15%;
+}
+.logo img{
+    margin-top: 10px;
+    width: 100%;
+}
+.menu {
+    width: 40%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    display: block;
+    font-family:PTSans-Bold;
+    font-weight: 700;
+    color: #010101;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 15px 22px;
+    margin-right: 30px;
+}
+.menu ul li:last-child a{
+    margin-right: 0px;
+    padding-right: 0;
+}
+.menu ul li a:hover{}
+/* .banner-area */
+.banner-area {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 110px;
+}
+
+.banner-text {
+    float: left;
+    width: 36%;
+    padding-top: 70px;
+}
+.banner-text h1{
+    font-family:PTSans-Bold;
+    font-size: 32px;
+    color: #010101;
+    margin-bottom: 30px;
+}
+.banner-text p:nth-child(2){
+    font-size: 20px;
+    color: #313841;
+}
+.banner-text p{
+    color: #555555;
+    margin-bottom: 30px;
+}
+.banner-icon {
+}
+.banner-icon li{
+    float: left;
+    list-style: none;
+}
+.banner-icon li a{
+    display: block;
+    margin-right: 38px;
+    text-decoration: none;
+}
+.banner-icon li a img{
+    display: block;
+}
+.banner-icon li a:hover{}
+.banner-img {
+    float: right;
+    width: 32%;
+    margin: 0 4%;
+}
+.banner-img img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.banner-dot{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    transform: translateX(50%);
+}
+.banner-dot li{
+    float: left;
+    margin-right: 10px;
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner-dot li:hover{
+    opacity: .7;
+}
+.features {
+    padding: 120px 0;
+}
+.features-heading {
+    text-align: center;
+    margin: 0 18%;
+    padding-bottom: 85px;
+}
+.features-heading h1{
+    font-family:PTSans-Bold;
+    font-size: 32px;
+    color: #010101;
+    margin-bottom: 30px;
+}
+.features-heading p{
+    color: #313841;
+}
+.features-service {
+    width: 100%;
+}
+
+.single-service {
+    float: left;
+    position: relative;
+    width: 29%;
+    margin-right: 6%;
+    padding-bottom: 85px;
+}
+.single-service:last-child{
+    margin-right: 0;
+}
+.single-service:nth-child(3){
+    margin-right: 0;
+}
+.icon-area {
+    position: absolute;
+    left: 0px;
+}
+
+.text-area {
+    padding-left: 67px;
+}
+.text-area h2{
+    font-size: 22px;
+    color: #010101;
+    padding-bottom: 18px;
+}
+.text-area p{
+    color:#898989 ;
+}
+.subscribe .features-heading{
+    padding-top: 95px;
+}
+.subscribe .features-heading h1{
+    color: #fcdb00;
+}
+.subscribe-area{
+    margin: 0 20%;
+}
+.subcribe-form{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.subcribe-form input{
+    padding: 15px 20px;
+    width: 69%;
+    border: none;
+    border-radius: 5px;
+}
+.subcribe-form button{
+    padding: 15px 40px;
+    border: none;
+    background-color: #fcdb00;
+    border-radius: 5px;
+}
+.subcribe-icon{
+    margin: 0 28%;
+}
+.subcribe-icon li{
+    float: left;
+    list-style: none;
+}
+.subcribe-icon li a{
+    display: block;
+    padding-right: 33px;
+}
+.subcribe-icon li:last-child a{
+    padding-right: 0;
+}
+.subcribe-icon li a:hover{}
+footer{
+    padding: 130px 0;
+}
+.single-footer{
+    float: left;
+    width: 18%;
+    color: #fff;
+}
+.single-footer:first-child{
+    width: 20%;
+    margin-right: 8%;
+}
+.single-footer ul{}
+.single-footer ul li{
+    list-style: none;
+}
+.bg-black{
+    background-color: #010101;
+}
